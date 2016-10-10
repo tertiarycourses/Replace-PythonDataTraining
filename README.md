@@ -51,9 +51,9 @@ https://www.tertiarycourses.com.sg/python-data-analysis-training-in-singapore.ht
 </ul>
 <p><strong>Module 5 Import/Export Data</strong> </p>
 <ul>
-<li>mport CSV</li>
+<li>Import Data from CSV</li>
 <li>Import Data from Web</li>
-<li>Export CSV</li>
+<li>Export Data to CSV</li>
 </ul>
 <p><strong>Module 6 Time Series</strong></p>
 <ul>
