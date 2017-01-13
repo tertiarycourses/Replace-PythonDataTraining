@@ -12,11 +12,11 @@ import sklearn
 
 #Differences between Python List and Numpy Array
 # First Difference: Python list cannot do arithmetic
-# a = [1,1,1,1]
-# b = [2,2,2,2]
+a = [1,1,1,1]
+b = [2,2,2,2]
 # print(a)
 # print(b)
-# print(a+b)
+print(a+b)
 #print(a-b)
 # a1 = np.array(a)
 # b1 = np.array(b)
@@ -166,10 +166,10 @@ a = [3,4,7,-1,-2,6,8,-9,3]
 # plt.show()
 
 # Scatter Plots
-# x = np.linspace(0,10,200)
-# y = x+np.random.randn(len(x))
-# plt.scatter(x,y)
-# plt.show()
+	# x = np.linspace(0,10,200)
+	# y = x+np.random.randn(len(x))
+	# plt.scatter(x,y)
+	# plt.show()
 
 # Bar Plot
 # Horizontal Bar Plot
