@@ -1,5 +1,5 @@
 # Data Analysis with Python Essential Training
-## by [Tertiary Infotech Pte. Ltd] (https://www.tertiarycourses.com.sg/)
+## by [Tertiary Infotech Pte. Ltd](https://www.tertiarycourses.com.sg/)
 
 These are the exercise files used for [Data Analysis with Python Essential Training](https://www.tertiarycourses.com.sg/python-data-analysis-training-in-singapore.html) course. 
 
