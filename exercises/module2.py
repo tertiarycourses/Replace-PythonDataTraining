@@ -3,7 +3,7 @@
 # Author: Dr Alfred Ang
 # Update: 13 Jan 2017
 
-# Module 2 Numpy
+# Module 2 Overview of Numpy
 
 import numpy as np
 

@@ -3,7 +3,7 @@
 # Author: Dr Alfred Ang
 # Update: 13 Jan 2017
 
-# Module 7 Scikit Learn
+# Module 5 Intro to Machine Leanrning with Scikit Learn
 
 # import sklearn as sk 
 
