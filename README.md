@@ -7,70 +7,52 @@ The course outline can be found in
 
 https://www.tertiarycourses.com.sg/python-data-analysis-training-in-singapore.html
 
-<p><strong>Module 1 Python Data Analysis Librarie</strong>s </p>
+<p><strong>Module 1 Python Data Analysis Libraries</strong> </p>
 <ul>
 <li>Data Analysis Components</li>
 <li>Data Analysis Steps</li>
 <li>Python Data Analysis Libraries</li>
 </ul>
-<p><strong>Module 2 Numpy</strong> </p>
+<p><strong>Module 2 Overview of Numpy</strong> </p>
 <ul>
-<li>Numpy Array</li>
-<li>Numpy Arithmetic</li>
-<li>Numpy Sequence</li>
-<li>Logical Indexing</li>
-<li>Slicing&nbsp;</li>
-<li>Reshape</li>
-<li>Linear Algebra</li>
+<li>What is Numpy?</li>
+<li>1D and 2D Array</li>
+<li>Array Arithmetics</li>
+<li>Special Functions</li>
+<li>Math Functions</li>
+<li>Selecting and Slicing Array Elements</li>
+<li>Filtering Array Elements</li>
+<li>Transforming Array</li>
 <li>Statistics</li>
 </ul>
-<p><strong>Module 3 Data Visualization with Matplotlib</strong> </p>
+<p><strong>Module 3 Data Analysis with Pandas</strong> </p>
 <ul>
-<li>What is Matplotlib</li>
-<li>Gallery</li>
-<li>Create Plots</li>
-<li>Plot Styling</li>
-<li>Subplots</li>
-<li>Scatter Plot</li>
-<li>Bar Chart</li>
-<li>Histogram</li>
-<li>Pie Chart</li>
-<li>Contour Plot</li>
-</ul>
-<p><strong>Module 4 Pandas</strong> </p>
-<ul>
-<li>What is Pandas?</li>
-<li>Pandas Series</li>
-<li>Pandas Data Frame</li>
-<li>Selecting Data</li>
-<li>Data Filter</li>
-<li>Data Concatenate</li>
-<li>Data Join</li>
-<li>Data Pivot</li>
+<li>Series</li>
+<li>Data Frame</li>
+<li>Selecting/Slicing Data</li>
+<li>Import/Export Data - CSV, Excel, Internet</li>
+<li>Filtering Data</li>
+<li>Missing Data</li>
+<li>Removing Duplicated Data</li>
+<li>Joining Data from Different Sources</li>
+<li>Transforming Data</li>
+<li>Aggregating Data</li>
 <li>Pandas Statistics</li>
 </ul>
-<p><strong>Module 5 Import/Export Data</strong> </p>
+<p><strong>Module 4 Data Visualization with Matplotlib &amp; Seaborn</strong></p>
 <ul>
-<li>Import Data from CSV</li>
-<li>Import Data from Web</li>
-<li>Export Data to CSV</li>
+<li>Overview of Matplotlib &amp; Seaborn</li>
+<li>Plot Types</li>
+<li>Plot Attributes</li>
+<li>Object Oriented Plots</li>
+<li>Time Series Plot</li>
 </ul>
-<p><strong>Module 6 Time Series</strong></p>
+<p><strong>Module 5 Intro to Machine Learning with Scikit-Learn</strong></p>
 <ul>
-<li>DateTime</li>
-<li>Time Range</li>
-<li>Time Zone</li>
-<li>Time Series</li>
-<li>Slicing Time Series</li>
-<li>Resampling Time Series</li>
-<li>Plotting Time Series</li>
-<li>Plotting Data Frame</li>
-</ul>
-<p><strong>Module 7 Intro to Scikits-Learn</strong></p>
-<ul>
-<li>Overview of Scikits-Learn</li>
+<li>Overview of Scikit-Learn</li>
 <li>Supervised and Unsupervised Learning</li>
 <li>Classification</li>
 <li>Regression</li>
-<li>Clustering</li>
+<li>Clustering&nbsp;</li>
+<li>PCA</li>
 </ul>
