@@ -1,142 +1,84 @@
 # Code guide for Python Data Analysis
 # Copyright: Tertiary Infotech Pte Ltd
 # Author: Dr Alfred Ang
-# Date: 10 Oct 2016
+# Date: 13 Jan 2017
 
-# Module 4 Pandas
+# Module 3 Matplolib
 
-import numpy as np
-import pandas as pd
+# import numpy as np 
+# import matplotlib.pyplot as plt
 
-# # Series
+# x = np.linspace(-4,4,100)
+# y = np.sin(x)
+# y2 = np.cos(x)
+# y3 = y*y2
+# y4 = y*y -y2*y2
+#plt.plot(x,y,color='#334411',marker='o',linestyle='-')
+#plt.plot(x,y,'ro-',label='sine',x,y2,'g^-',label='cosine')
+# plt.subplot(2,1,1)
+# plt.plot(x,y,'ro-',label='sine')
+# plt.subplot(2,1,2)
+# plt.plot(x,y2,'g^-',label='cosine')
+# plt.grid()
+#plt.legend(loc='upperleft')
+# plt.legend(bbox_to_anchor=(1.1,1.05))
+# plt.xlabel('x')
+# plt.ylabel('y')
+#plt.title('sine curve')
+# plt.show()
 
-a = [2,5,6,7,3]
-b = [3,4,7,9,10]
-a1 = np.array(a)
-b1 = np.array(b)
-a2 = pd.Series(a,index=['a','b','c','d','e'])
-b2 = pd.Series(b,index=['a','b','c','d','e'])
-#print(a1+b1)
-# # print(a2)
-# # print(b2)
-# # print(a2+b2)
-#print(a2['c'])
+# Challenge
+# plt.subplot(2,2,1)
+# plt.plot(x,y,'ro')
+# plt.subplot(2,2,2)
+# plt.plot(x,y2,'g^')
+# plt.subplot(2,2,3)
+# plt.plot(x,y3,'b^')
+# plt.subplot(2,2,4)
+# plt.plot(x,y4,'ko')
+# plt.show()
 
-# print(a2.index)
-# print(a2.values)
+# Other Plots
 
-#a = pd.Series(np.random.randn(1000))
-#print(a.head())
-#print(a.tail(10))
-#print(a[300:305])
+# Scatter Plot
+# x = np.linspace(0,10,200)
+# y = x + np.random.randn(len(x))
+# plt.scatter(x,y)
+# plt.show()
 
-# Data Frame
-
-# a = [[3,4],[5,6]]
-# b = [[6,5],[4,3]]
-# a1 = np.array(a)
-# b1 = np.array(b)
-# print(a1+b1)
-
-# a2 = pd.DataFrame(a, index=[1,2], columns=['a','b'])
-# b2 = pd.DataFrame(b, index=[1,2], columns=['a','c'])
-# print(a2+b2)
-
-# a = pd.DataFrame(
-# 	{
-# 	'name': ['Ally','Jane','Belinda'],
-# 	'height':[160,155,163],
-# 	'age': [40,35,42]
-# 	},
-# 	columns = ['name','height','age'],
-# 	index = ['101','105','108']
-# 	)
-# print(a)
-# print(a.index)
-# print(a.columns)
-# print(a.values)
-
-# Column data
-#print(a['name'])
-#print(a.name)
-#print(a[[0]])
-
-# Row data
-# print(a.ix['105'])
-# print(a.ix[1])
-#print(a.loc['105'])
-
-# Scalar data
-#print(a.ix[1]['height'])
-#print(a.ix['105','height'])
-
-# a.index = ['108','105','110']
-# print(a)
-
-# Re-index
-#a3 = a.reindex(['108','105','110'],fill_value='NA')
-# a3 = a.reindex(['108','105','110'])
-# print(a3)
-# a4 = a3.dropna()
-# print(a4)
-#a = pd.DataFrame(np.random.randn(20,5))
-#print(a.head())
-#print(a.tail())
+# Bar Plot
+# Horizontal Bar Plot
+# people = ['Tom', 'Dick', 'Harry', 'Slim', 'Jim']
+# height = 170 + 20 * np.random.randn(len(people))
+# x = np.arange(len(people))
+# plt.barh(x,height,align="center",color='yellow')
+# plt.yticks(x,people)
+# plt.show()
 
 
-#sp500 = pd.read_csv('data/sp500.csv',index_col='Symbol',usecols=[0,2,3,7])
-#print(sp500.head())
-#print(sp500[sp500.Price<100])
+# Vertical Bar Plot
+#people = ['Tom', 'Dick', 'Harry', 'Slim', 'Jim']
+# height = 170 + 10 * np.random.randn(len(people))
+# x = np.arange(len(people))
+# plt.bar(x,height,align="center")
+# plt.xticks(x,people)
+# plt.show()
 
-#print(sp500[(sp500.Price>100) & (sp500.Sector=='Health Care')])
+# Histogram
+# x = np.random.randn(100000)
+# plt.hist(x,10)
+# plt.show()
 
+# Contour Plot
+# x = np.linspace(-1,1,255)
+# y = np.linspace(-2,2,300)
+# X,Y = np.meshgrid(x,y)
+# z = np.sin(X)*np.cos(Y)
+#plt.contour(X,Y,z,10)
+# plt.show()
 
-# a = pd.DataFrame(
-# 	{
-# 	'name': ['Ally','Jane','Belinda'],
-# 	'height':[160,155,163],
-# 	'age': [40,35,42]
-# 	},
-# 	columns = ['name','height','age']
-# 	)
-
-# b = pd.DataFrame(
-# 	{
-# 	'name': ['Ally','Jane','Alfred'],
-# 	'weight': [55,50,80]
-# 	},
-# 	columns = ['name','weight']
-# 	)
-
-# print(a)
-# print(b)
-
-# Inner Join
-# c = pd.merge(a,b,on='name',how='inner')
-# print(c)
-
-# Left Join
-# c = pd.merge(a,b,on='name',how='left')
-# print(c)
-
-# Right Join
-# c = pd.merge(a,b,on='name',how='right')
-# print(c)
-
-# Outer Join
-# c = pd.merge(a,b,on='name',how='outer')
-# print(c)
-
-a = pd.DataFrame(
-	{
-	'name': ['Ally','Jane','Belinda'],
-	'height':[160,155,163],
-	'age': [40,35,42]
-	},
-	columns = ['name','height','age']
-	)
-
-# Basic Statistics in Pandas
-# print(a.describe())
-
+# Pie Plot
+# x = [45,50,20]
+# plt.pie(x)
+# plt.show()
 
