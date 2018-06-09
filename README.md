@@ -6,6 +6,7 @@ These are the exercise files used for [Data Analysis with Python Essential Train
 The course outline can be found in 
 
 https://www.tertiarycourses.com.sg/python-data-analysis-training-in-singapore.html
+https://www.tertiarycourses.com.my/python-data-analysis-training-in-malaysia.html
 
 <p><strong>Module 1 Python Data Analysis Libraries</strong> </p>
 <ul>
